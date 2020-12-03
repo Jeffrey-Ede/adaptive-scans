@@ -3,7 +3,7 @@
 This repository is for the [preprint](https://arxiv.org/abs/2004.02786)|paper "Adaptive Partial Scanning Transmission Electron Microscopy with Reinforcement Learning". It contains TensorFlow code to train recurrent actors to cooperate with a convolutional generator to complete partial scans. 
 
 <p align="center">
-  <img src="examples-hq.png">
+  <img src="examples.png">
 </p>
 
 Examples show test set 1/23.04 px coverage adaptive partial scans, target outputs and generated partial scan completions for 96x96 crops from STEM images.
