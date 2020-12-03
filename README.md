@@ -1,6 +1,6 @@
 # Adaptive Partial STEM
 
-This repository is for the [preprint](https://arxiv.org/abs/2004.02786)|paper "Adaptive Partial Scanning Transmission Electron Microscopy with Reinforcement Learning". Supplementary information is [here](https://doi.org/10.5281/zenodo.4304462). Sparse scans are piecewise adapted to specimens by a recurrent actor that learns to cooperated with a convolutional feedforward generator.
+This repository is for the [preprint](https://arxiv.org/abs/2004.02786)|paper "Adaptive Partial Scanning Transmission Electron Microscopy with Reinforcement Learning". Supplementary information is [here](https://doi.org/10.5281/zenodo.4304462). Sparse scans are piecewise adapted to specimens by a recurrent actor that learns to cooperate with a feedforward generator.
 
 <p align="center">
   <img src="examples.png">
