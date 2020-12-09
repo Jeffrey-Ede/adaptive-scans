@@ -10,9 +10,9 @@ Examples show test set 1/23.04 px coverage adaptive partial scans, target output
 
 ## Training
 
-To continue training the neural network; from scratch or to fine-tune it, you will need to adjust some of the variables at the top of `train.py` files. Specifically, variables indicating the location of your datasets and locations to save logs and checkpoints to. Note that there may be minor differences between the script and the paper due to active development. Add empty `__init__.py` files to `dnc` subdirectories to run code.
+To continue training the neural network; from scratch or to fine-tune it, you will need to adjust some of the variables at the top of `train.py` files. Specifically, variables indicating the location of your datasets and locations to save logs and checkpoints.
 
-Checkpoints for a fully trained model are [here](https://drive.google.com/drive/folders/1CrfIWSdigIsSeo3Sid6PxXuJUvGLk6C6?usp=sharing). They are for 500k and 1000k training iterations. To load the models, change the save location in the `checkpoint` file to your save location.
+Checkpoints for a fully trained model are [here](https://drive.google.com/drive/folders/1CrfIWSdigIsSeo3Sid6PxXuJUvGLk6C6?usp=sharing). They were saved after 500k and 1000k training iterations. To load the models, change the save location in the `checkpoint` file to your save location.
 
 ## Training Data
 
