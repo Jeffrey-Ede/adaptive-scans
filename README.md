@@ -12,7 +12,7 @@ Examples show test set 1/23.04 px coverage adaptive partial scans, target output
 
 ## Training
 
-To continue training the neural network; from scratch or to fine-tune it, you will need to adjust some of the variables at the top of `train.py` files. Specifically, variables indicating the location of your datasets and locations to save logs and checkpoints.
+To continue training the neural network; from scratch or to fine-tune it, you will need to adjust some of the variables at the top of `train.py` files. Specifically, variables indicating the location of your training data where to save logs and checkpoints.
 
 Checkpoints for a fully trained model are [here](https://drive.google.com/drive/folders/1CrfIWSdigIsSeo3Sid6PxXuJUvGLk6C6?usp=sharing). They were saved after 500k and 1000k training iterations. To load the models, change the save location in the `checkpoint` file to your save location.
 
@@ -22,7 +22,7 @@ Datasets containing 19769 STEM images cropped or downsampled to 96x96 are [here]
 
 ## Miscellaneous
 
-The `misc` folder contains scripts to create graphs. In addition, `read_loss_log.py` can read loss logs output during training.
+The `misc` folder contains scripts to create graphs in the paper. In addition, `read_loss_log.py` can display loss logs output during training.
 
 ## Contact
 
